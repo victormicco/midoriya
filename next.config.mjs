@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const config = {
+  reactStrictMode: true,
+  swcMinify: true,
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  experimental: {
+    // typedRoutes: process.env.NODE_ENV === "development",
+  },
+};
 
-export default nextConfig;
+export default config;

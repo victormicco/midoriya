@@ -1,0 +1,9 @@
+{
+  "*.{ts,tsx}": [
+    "cspell",
+    "bash -c 'pnpm types:check'",
+    "eslint --fix",
+    "prettier -w"
+  ],
+  "*.{md,json}": ["prettier -w"]
+}
