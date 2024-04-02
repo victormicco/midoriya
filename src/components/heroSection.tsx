@@ -34,8 +34,8 @@ export default function HeroSection() {
                 quiz
               </h1>
               <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
-                Give your team the toolkit to stop configuring and start
-                innovating. Securely build, deploy, and scale the best web
+                Empower your team to cease configuring and ignite innovation.
+                Seamlessly construct, launch, and expand captivating quiz
                 experiences.
               </p>
               <Button>Get started</Button>
