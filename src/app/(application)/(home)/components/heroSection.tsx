@@ -20,25 +20,38 @@ export default function HeroSection() {
     };
   }, []);
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-16">
+    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-9">
       <div className="container px-4 md:px-6">
         <div className="grid items-center gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
           <canvas id="canvas3d" className="h-screen rounded-3xl"></canvas>
-          <div className=" my-52 flex h-full flex-col justify-center space-y-4 rounded-3xl border px-20">
+          <div className=" my-52 flex h-3/4 flex-col justify-center space-y-4 rounded-3xl border border-dashed border-green-500 px-20">
             <div className="flex flex-col space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
-                The complete platform for building{" "}
+                The{" "}
                 <span className="bg-gradient-to-r from-green-500 via-green-900 to-green-500 bg-clip-text   tracking-tighter text-transparent ">
-                  awesome
+                  complete
                 </span>{" "}
-                quiz
+                platform for check SQL{" "}
+                <span className="bg-gradient-to-l from-green-200 via-green-400 to-green-600 bg-clip-text   tracking-tighter text-transparent ">
+                  syntax
+                </span>
               </h1>
-              <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
-                Empower your team to cease configuring and ignite innovation.
-                Seamlessly construct, launch, and expand captivating quiz
-                experiences.
-              </p>
-              <Button>Get started</Button>
+              <div className="flex flex-col  items-center  gap-y-5">
+                <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
+                  Equip your team with the tools to eliminate errors and spark
+                  creativity in SQL coding. Effortlessly craft, deploy, and
+                  enhance flawless database experiences.
+                </p>
+                <Button
+                  className=" w-32 "
+                  variant={"outline"}
+                  onClick={() => {
+                    window.open("tool");
+                  }}
+                >
+                  Get started
+                </Button>
+              </div>
             </div>
           </div>
         </div>
