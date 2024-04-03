@@ -1,6 +1,6 @@
 "use client";
 import { Github, Home, Linkedin } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
+import { ThemeToggle } from "./theme-toggle";
 
 export default function Footer() {
   return (
@@ -26,7 +26,7 @@ export default function Footer() {
               window.open("https://www.github.com/victormicco");
             }}
           />
-          <ModeToggle />
+          <ThemeToggle />
         </div>
         <p className="text-gray-500 dark:text-gray-400">
           Developed with 💚 by Victor Micco
