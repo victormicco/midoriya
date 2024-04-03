@@ -3,6 +3,7 @@ import { Github, Home, Linkedin } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
 
 export default function Footer() {
+  const x = "test commit linter";
   return (
     <footer className="fixed inset-x-0 bottom-0 border-t p-4 backdrop-blur-lg dark:border-gray-800">
       <div className="container flex items-center justify-between  text-sm">
