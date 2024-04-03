@@ -16,6 +16,8 @@
     "@radix-ui/react-slot": "^1.0.2",
     "@splinetool/runtime": "^1.0.91",
     "@t3-oss/env-nextjs": "^0.9.2",
+    "@typebot.io/js": "^0.2.63",
+    "@typebot.io/nextjs": "^0.2.63",
     "@uidotdev/usehooks": "^2.4.1",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",

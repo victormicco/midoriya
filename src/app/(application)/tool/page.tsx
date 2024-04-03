@@ -2,6 +2,7 @@ import Footer from "../../../components/footer";
 import Navbar from "../../../components/navbar";
 import EntrySection from "./components/entrySection";
 import { ValidateQuery } from "./components/form/validateQuery";
+import Quiz from "./components/quizTypeBot";
 
 export default function sqlChecker() {
   const defaultValues = { sqlQuery: "" };
@@ -9,7 +10,8 @@ export default function sqlChecker() {
     <>
       <Navbar />
       <EntrySection />
-      <ValidateQuery defaultValues={defaultValues} />
+      {/* <ValidateQuery defaultValues={defaultValues} /> */}
+      <Quiz />
       <Footer />
     </>
   );
