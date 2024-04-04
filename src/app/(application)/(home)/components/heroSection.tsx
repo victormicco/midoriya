@@ -31,16 +31,17 @@ export default function HeroSection() {
                 <span className="bg-gradient-to-r from-green-500 via-green-900 to-green-500 bg-clip-text   tracking-tighter text-transparent ">
                   complete
                 </span>{" "}
-                platform for check SQL{" "}
+                quiz to verify your knowledge about{" "}
                 <span className="bg-gradient-to-l from-green-200 via-green-400 to-green-600 bg-clip-text   tracking-tighter text-transparent ">
-                  syntax
+                  Digital Marketing
                 </span>
+                <span className="text-4xl">🍸</span>
               </h1>
               <div className="flex flex-col  items-center  gap-y-5">
                 <p className="max-w-[600px] text-gray-500 dark:text-gray-400 md:text-xl">
-                  Equip your team with the tools to eliminate errors and spark
-                  creativity in SQL coding. Effortlessly craft, deploy, and
-                  enhance flawless database experiences.
+                  Arm your marketing team with the knowledge to excel and
+                  inspire in digital campaigns. Seamlessly create, deploy, and
+                  elevate engaging quiz experiences.
                 </p>
                 <Button
                   className=" w-32 "
