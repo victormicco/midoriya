@@ -10,7 +10,7 @@ export default function Footer() {
           <Home
             className="h-5 w-5 cursor-pointer"
             onClick={() => {
-              window.open("#");
+              window.open("/");
             }}
             target="_blank"
           />
