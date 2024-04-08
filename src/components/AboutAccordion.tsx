@@ -19,6 +19,7 @@ export function AboutAccordion() {
               window.open("https://github.com/victormicco/midoriya")
             }
           >
+            
             Github Repository
           </span>
         </AccordionContent>
